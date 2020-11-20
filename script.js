@@ -33,7 +33,7 @@ function main() {
 
 
 function draw(context, nrOfDots, multiplier) { 
-    const radius = window.innerWidth * 0.4;
+    const radius = window.innerWidth * 0.25;
 
     context.clearRect(0,0,window.innerWidth,window.innerHeight)
     drawCircle(context, radius);
